@@ -1,13 +1,12 @@
 <script>
-  // Import components
   import Portfolio from './lib/Portfolio.svelte';
   import Header from './lib/Header.svelte';
   import Footer from './lib/Footer.svelte';
   import './app.css';
-  // Portfolio data
+
   const portfolioData = {
     name: "Raphael Miyoyo",
-    title: "Fullstack Developer",
+    title: "Full-Stack Software Engineer",
     bio: "Highly motivated Full Stack Software Engineer with 2+ years of experience crafting scalable and user-centric web applications. Proficient in JavaScript, React, Redux, Ruby on Rails, Laravel and PostgreSQL. Adept at both frontend and backend development. I ensure responsive design and seamless user experiences. Strong advocate for collaboration and mentorship. Proven track record of delivering high-quality solutions on time, having completed over 30 projects.",
     social: {
       github: "https://github.com/rmiyoyo",
@@ -57,6 +56,13 @@
         image: "/images/health-tracker.png",
         technologies: ["Flutter", "Node.js", "MongoDB", "Google Fit API"],
         github: "https://github.com/rmiyoyo/health-tracker"
+      },
+      {
+        title: "Leaderboard App",
+        description: " The leaderboard website displays scores submitted by different players. It also allows you to submit your score.",
+        image: "/images/Leaderboard.png",
+        technologies: ["Flutter", "Node.js", "MongoDB", "Google Fit API"],
+        github: "https://rmiyoyo.github.io/Leaderboard-App/dist/"
       }
     ]
   };
